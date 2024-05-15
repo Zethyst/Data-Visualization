@@ -16,7 +16,7 @@ function App() {
       <Navbar title={title}/>
       <Sidebar setTitle={setTitle}/>
       <Routes>
-        <Route exact path='/'  element={<Dashboard/>}/>
+        <Route exact path='/Data-Visualization'  element={<Dashboard/>}/>
         <Route exact path='/analytics'  element={<Analytics/>}/>
       </Routes>
     </div>

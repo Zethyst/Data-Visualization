@@ -7,7 +7,7 @@ function Sidebar({setTitle}) {
   return (
     <div className="absolute top-0 pr-3 z-100 left-0 w-72 h-[100vh] flex flex-col justify-center items-center rounded-r-3xl bg-[#6B120A]">
       <ul className="overflow-scroll overflow-x-hidden flex flex-col gap-1 justify-center w-72 items-center text-white tracking-wider text-sm">
-          <Link to='/' onClick={()=>{setTitle("Dashboard")}} className={`w-[90%] p-5 rounded-xl  cursor-pointer ${location.pathname==='/'?'bg-[#ef5e5020]':'bg-[#6B120A]'} hover:bg-[#ef5e5020] flex justify-center items-center gap-5`}>
+          <Link to='/Data-Visualization' onClick={()=>{setTitle("Dashboard")}} className={`w-[90%] p-5 rounded-xl  cursor-pointer ${location.pathname==='/'?'bg-[#ef5e5020]':'bg-[#6B120A]'} hover:bg-[#ef5e5020] flex justify-center items-center gap-5`}>
           <span class="material-symbols-outlined">dashboard</span>
           <p className="font-bold ">Dashboard</p>
           </Link>
@@ -49,7 +49,7 @@ function Sidebar({setTitle}) {
           <p className="font-bold -translate-x-3">History</p>
         </li>
       </ul>
-      <div className="flex gap-1 justify-center items-center translate-y-10 mt-5">
+      <div className="flex gap-1 justify-center items-center translate-y-12 mt-5">
         <div className="p-[3px] h-1 w-1  bg-white rounded-full"></div>
         <div className="p-[3px] h-2 w-2 bg-white rounded-full"></div>
         <div className="p-[3px] h-3 w-3  bg-white rounded-full"></div>
