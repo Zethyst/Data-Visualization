@@ -1,0 +1,48 @@
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.1rem;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 12px;
+  background: #dddddd52;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 12px;
+  background: #856562;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background:  #6B120A;
+}
+
+body{
+  background-color: #F1F1F1;
+}
+
+.nav-item:after {
+  position: absolute;
+  z-index: 200;
+  bottom: -5px;
+  left: 0px;
+  width: 111%;
+  height: 3px;
+  content: "";
+  background-color:  #EB5D50;
+  opacity: 0;
+  transition: all 200ms linear;
+  outline: none;
+}
+.nav-item:hover:after {
+  bottom: 0;
+  opacity: 1;
+}
+.nav-item.active:hover:after {
+  opacity: 0;
+}
+.nav-item {
+  position: relative;
+  height: 40px;
+  transition: all 200ms linear;
+}
