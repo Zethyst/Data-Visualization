@@ -49,7 +49,7 @@ function Sidebar({setTitle}) {
           <p className="font-bold -translate-x-3">History</p>
         </li>
       </ul>
-      <div className="flex gap-1 justify-center items-center translate-y-12 mt-5">
+      <div className="flex gap-1 justify-center items-center translate-y-8 mt-2 pb-4">
         <div className="p-[3px] h-1 w-1  bg-white rounded-full"></div>
         <div className="p-[3px] h-2 w-2 bg-white rounded-full"></div>
         <div className="p-[3px] h-3 w-3  bg-white rounded-full"></div>
