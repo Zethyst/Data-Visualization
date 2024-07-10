@@ -12,7 +12,7 @@ function App() {
 
   return (
     <BrowserRouter>
-    <div className="relative bg-[#F1F1F1] h-[270vh]">
+    <div className="relative bg-[#F1F1F1] h-[220vh]">
       <Navbar title={title}/>
       <Sidebar setTitle={setTitle}/>
       <Routes>

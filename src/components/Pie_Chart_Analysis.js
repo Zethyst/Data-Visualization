@@ -22,7 +22,7 @@ function Pie_Chart_Analysis() {
           </div>
         </div>
       </div>
-      <div className="flex gap-7 mt-3">
+      <div className="flex justify-center items-center gap-12 mt-3">
         <div>
           <DonutChart />
           <p className="text-center font-semibold">Origin Port</p>
@@ -44,7 +44,7 @@ function Pie_Chart_Analysis() {
           <p className="text-center font-semibold">Milestones</p>
         </div>
       </div>
-      <div className="flex gap-1 mt-3">
+      <div className="flex justify-center items-center gap-7 mt-3">
         <DataLabels />
         <DataLabels />
         <DataLabels />

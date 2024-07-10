@@ -10,7 +10,7 @@ function Navbar({ title }) {
       <p className="text-3xl translate-x-80 font-semibold text-[#353535]">
         {title}
       </p>
-      <div className="flex justify-center items-center gap-10">
+      <div className="flex justify-center items-center gap-10 ">
         <div className="bell relative cursor-pointer">
           <i className="fa-regular fa-bell scale-150"></i> <div className="p-[6px] absolute top-0 left-2 bg-[#FF4D49] rounded-full"></div>
         </div>

@@ -150,8 +150,8 @@ function Report() {
     
   };
   return (
-    <div className="py-20 px-5 bg-white w-[77%] shadow-md mx-6 absolute right-0 bottom-4 rounded-2xl">
-      <button ref={ref} className="flex gap-1 justify-center items-center px-6 py-3 h-11 w-36 absolute right-3 top-3 text-white bg-[#EB5D50] font-bold rounded-3xl">
+    <div className="py-5 px-5 bg-white  shadow-md  mx-auto w-[80%] translate-x-36 rounded-2xl flex gap-5 flex-col justify-end items-center" >
+      <button ref={ref} className="flex gap-1 justify-center items-center px-6 py-3 self-end h-11 w-36  text-white bg-[#EB5D50] font-bold rounded-3xl">
         <span class="material-symbols-outlined">download</span>
         Download
       </button>

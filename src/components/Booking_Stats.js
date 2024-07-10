@@ -2,8 +2,8 @@ import React from "react";
 
 function Booking_Stats() {
   return (
-    <div className="flex justify-end items-center px-14 pt-4 w-full gap-5">
-      <div className="px-3 py-5 bg-white rounded-2xl shadow-md w-64 flex justify-center items-center">
+    <div className="flex justify-end items-center px-14 pt-4 w-full gap-7">
+      <div className="px-3 py-5 bg-white rounded-2xl shadow-md w-72 flex gap-7 justify-center items-center">
         <div className="flex flex-col gap-2 -translate-x-4">
           <span className="text-xs text-[#353535] font-medium">
             Total Bookings
@@ -14,7 +14,7 @@ function Booking_Stats() {
           <span class="material-symbols-outlined scale-110 ">dvr</span>
         </div>
       </div>
-      <div className="px-3 py-5 bg-white rounded-2xl shadow-md w-64 flex justify-center items-center">
+      <div className="px-3 py-5 bg-white rounded-2xl shadow-md w-72 flex gap-7  justify-center items-center">
         <div className="flex flex-col gap-2 -translate-x-4">
           <span className="text-xs text-[#353535] font-medium">
             Bookings Utilized
@@ -25,7 +25,7 @@ function Booking_Stats() {
           <span class="material-symbols-outlined scale-110 ">fact_check</span>
         </div>
       </div>
-      <div className="px-3 py-5 bg-white rounded-2xl shadow-md w-64 flex justify-center items-center">
+      <div className="px-9 py-5 bg-white rounded-2xl shadow-md w-72 flex gap-7  justify-between items-center">
         <div className="flex flex-col gap-2 -translate-x-4">
           <span className="text-xs text-[#353535] font-medium">
             Booking Cancelled
@@ -36,7 +36,7 @@ function Booking_Stats() {
           <span class="material-symbols-outlined scale-110 ">block</span>
         </div>
       </div>
-      <div className="px-3 py-5 bg-white rounded-2xl shadow-md w-64 flex justify-center items-center">
+      <div className="px-9 py-5 bg-white rounded-2xl shadow-md w-72 flex gap-7  justify-between items-center relative">
         <div className="flex flex-col gap-2 -translate-x-4">
           <span className="text-xs text-[#353535] font-medium">
             Utilization

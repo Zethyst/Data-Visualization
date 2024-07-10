@@ -13,11 +13,11 @@ function Analytics() {
         <Options/>
         <Dual/>
         <Filter/>
-        <div className=' absolute mt-5 right-0 w-[80%]  flex'>
+        <div className=' mt-5  w-[99%] pl-72 mx-auto  flex'>
             <Milestones/>
             <Timeline/>
         </div>
-        <div className=' absolute mt-96 right-0 w-[90%] pl-40 flex flex-wrap'>
+        <div className=' w-full pl-72 mx-3 my-2 flex flex-wrap'>
             <Extra_Stats title="Loading"/>
             <Extra_Stats title="Discharge"/>
             <Extra_Stats title="Delivery"/>
